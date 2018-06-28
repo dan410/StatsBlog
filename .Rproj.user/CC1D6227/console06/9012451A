@@ -23,3 +23,213 @@ drwxr-xr-x  11 fort002  2016721313   374 Jun 28 14:38 public
 drwxr-xr-x   3 fort002  2016721313   102 Jun 28 14:38 static
 drwxr-xr-x   3 fort002  2016721313   102 Jun 28 14:38 themes
 ]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git add .
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git commit -m "created website'[K"
+[master (root-commit) 6d3e0b1] created website
+ 160 files changed, 15298 insertions(+)
+ create mode 100644 .Rproj.user/CC1D6227/console06/9012451A
+ create mode 100644 .Rproj.user/CC1D6227/console06/9012451A.env
+ create mode 100644 .Rproj.user/CC1D6227/console06/INDEX001
+ create mode 100644 .Rproj.user/CC1D6227/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/CC1D6227/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/CC1D6227/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/CC1D6227/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/CC1D6227/rmd-outputs
+ create mode 100644 .Rproj.user/CC1D6227/saved_source_markers
+ create mode 100644 .Rproj.user/CC1D6227/sources/prop/5B5EA187
+ create mode 100644 .Rproj.user/CC1D6227/sources/prop/96C26223
+ create mode 100644 .Rproj.user/CC1D6227/sources/prop/FCFE99A1
+ create mode 100644 .Rproj.user/CC1D6227/sources/prop/INDEX
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/1395737C
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/1395737C-contents
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/28567075
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/28567075-contents
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/470B41DB
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/470B41DB-contents
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/AF3DA62E
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/AF3DA62E-contents
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/EBC9C50A
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/EBC9C50A-contents
+ create mode 100644 .Rproj.user/CC1D6227/sources/s-24B89E3C/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 StatsBlog.Rproj
+ create mode 100644 config.toml
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.html
+ create mode 100644 content/post/creating-a-new-theme.md
+ create mode 100644 content/post/goisforlovers.md
+ create mode 100644 content/post/hugoisforlovers.md
+ create mode 100644 content/post/migrate-from-jekyll.md
+ create mode 100644 content/project/project1.md
+ create mode 100644 content/project/project2.md
+ create mode 100644 content/project/project3.md
+ create mode 100644 content/project/project4.md
+ create mode 100644 index.Rmd
+ create mode 100644 public/404.html
+ create mode 100644 public/categories/index.html
+ create mode 100644 public/categories/index.xml
+ create mode 100644 public/categories/page/1/index.html
+ create mode 100644 public/categories/r/index.html
+ create mode 100644 public/categories/r/index.xml
+ create mode 100644 public/categories/r/page/1/index.html
+ create mode 100644 public/css/main.css
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/post/2015-07-23-r-rmarkdown/index.html
+ create mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/post/creating-a-new-theme/index.html
+ create mode 100644 public/post/goisforlovers/index.html
+ create mode 100644 public/post/hugoisforlovers/index.html
+ create mode 100644 public/post/index.html
+ create mode 100644 public/post/index.xml
+ create mode 100644 public/post/migrate-from-jekyll/index.html
+ create mode 100644 public/post/page/1/index.html
+ create mode 100644 public/project/index.html
+ create mode 100644 public/project/index.xml
+ create mode 100644 public/project/page/1/index.html
+ create mode 100644 public/project/project1/index.html
+ create mode 100644 public/project/project2/index.html
+ create mode 100644 public/project/project3/index.html
+ create mode 100644 public/project/project4/index.html
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/tags/bootstrap/index.html
+ create mode 100644 public/tags/bootstrap/index.xml
+ create mode 100644 public/tags/bootstrap/page/1/index.html
+ create mode 100644 public/tags/css/index.html
+ create mode 100644 public/tags/css/index.xml
+ create mode 100644 public/tags/css/page/1/index.html
+ create mode 100644 public/tags/development/index.html
+ create mode 100644 public/tags/development/index.xml
+ create mode 100644 public/tags/development/page/1/index.html
+ create mode 100644 public/tags/go/index.html
+ create mode 100644 public/tags/go/index.xml
+ create mode 100644 public/tags/go/page/1/index.html
+ create mode 100644 public/tags/golang/index.html
+ create mode 100644 public/tags/golang/index.xml
+ create mode 100644 public/tags/golang/page/1/index.html
+ create mode 100644 public/tags/highlight-js/index.html
+ create mode 100644 public/tags/highlight-js/index.xml
+ create mode 100644 public/tags/highlight-js/page/1/index.html
+ create mode 100644 public/tags/html/index.html
+ create mode 100644 public/tags/html/index.xml
+ create mode 100644 public/tags/html/page/1/index.html
+ create mode 100644 public/tags/hugo/index.html
+ create mode 100644 public/tags/hugo/index.xml
+ create mode 100644 public/tags/hugo/page/1/index.html
+ create mode 100644 public/tags/index.html
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/jekyll/index.html
+ create mode 100644 public/tags/jekyll/index.xml
+ create mode 100644 public/tags/jekyll/page/1/index.html
+ create mode 100644 public/tags/js/index.html
+ create mode 100644 public/tags/js/index.xml
+ create mode 100644 public/tags/js/page/1/index.html
+ create mode 100644 public/tags/page/1/index.html
+ create mode 100644 public/tags/page/2/index.html
+ create mode 100644 public/tags/page/3/index.html
+ create mode 100644 public/tags/page/4/index.html
+ create mode 100644 public/tags/plot/index.html
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/plot/page/1/index.html
+ create mode 100644 public/tags/r-markdown/index.html
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/r-markdown/page/1/index.html
+ create mode 100644 public/tags/regression/index.html
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 public/tags/regression/page/1/index.html
+ create mode 100644 public/tags/responsive/index.html
+ create mode 100644 public/tags/responsive/index.xml
+ create mode 100644 public/tags/responsive/page/1/index.html
+ create mode 100644 public/tags/static-site-generator/index.html
+ create mode 100644 public/tags/static-site-generator/index.xml
+ create mode 100644 public/tags/static-site-generator/page/1/index.html
+ create mode 100644 public/tags/syntax-highlighting/index.html
+ create mode 100644 public/tags/syntax-highlighting/index.xml
+ create mode 100644 public/tags/syntax-highlighting/page/1/index.html
+ create mode 100644 public/tags/template/index.html
+ create mode 100644 public/tags/template/index.xml
+ create mode 100644 public/tags/template/page/1/index.html
+ create mode 100644 public/tags/themes/index.html
+ create mode 100644 public/tags/themes/index.xml
+ create mode 100644 public/tags/themes/page/1/index.html
+ create mode 100644 static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 themes/minimal/.gitignore
+ create mode 100644 themes/minimal/LICENSE.md
+ create mode 100644 themes/minimal/README.md
+ create mode 100644 themes/minimal/archetypes/default.md
+ create mode 100644 themes/minimal/archetypes/post.md
+ create mode 100644 themes/minimal/archetypes/project.md
+ create mode 100644 themes/minimal/exampleSite/config.toml
+ create mode 100644 themes/minimal/exampleSite/content/post/creating-a-new-theme.md
+ create mode 100644 themes/minimal/exampleSite/content/post/goisforlovers.md
+ create mode 100644 themes/minimal/exampleSite/content/post/hugoisforlovers.md
+ create mode 100644 themes/minimal/exampleSite/content/post/migrate-from-jekyll.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project1.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project2.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project3.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project4.md
+ create mode 100644 themes/minimal/images/screenshot.png
+ create mode 100644 themes/minimal/images/tn.png
+ create mode 100644 themes/minimal/layouts/404.html
+ create mode 100644 themes/minimal/layouts/_default/list.html
+ create mode 100644 themes/minimal/layouts/_default/single.html
+ create mode 100644 themes/minimal/layouts/_default/terms.html
+ create mode 100644 themes/minimal/layouts/index.html
+ create mode 100644 themes/minimal/layouts/partials/body-open.html
+ create mode 100644 themes/minimal/layouts/partials/css.html
+ create mode 100644 themes/minimal/layouts/partials/footer.html
+ create mode 100644 themes/minimal/layouts/partials/head-open.html
+ create mode 100644 themes/minimal/layouts/partials/header.html
+ create mode 100644 themes/minimal/layouts/partials/js.html
+ create mode 100644 themes/minimal/layouts/partials/list-item.html
+ create mode 100644 themes/minimal/layouts/partials/paginator.html
+ create mode 100644 themes/minimal/static/css/main.css
+ create mode 100644 themes/minimal/theme.toml
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git remote add origin https://github.com/dan410/S tatsBlog.git
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git push -u origin masterremote add origin https://github.com/dan410/SttatsBlog.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcommit -m "created website"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K[3Pls -lagit init[2Pls -lagit add .commit -m "created website"remote add origin https://github.com/dan410/SttatsBlog.git
+fatal: remote origin already exists.
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git remote add origin https://github.com/dan410/S tatsBlog.git
+fatal: remote origin already exists.
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git remote -v
+origin	https://github.com/dan410/StatsBlog.git (fetch)
+origin	https://github.com/dan410/StatsBlog.git (push)
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git push -u origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': dan410
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://dan410@github.com': 
+Counting objects: 254, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/183)   Compressing objects:   1% (2/183)   Compressing objects:   2% (4/183)   Compressing objects:   3% (6/183)   Compressing objects:   4% (8/183)   Compressing objects:   5% (10/183)   Compressing objects:   6% (11/183)   Compressing objects:   7% (13/183)   Compressing objects:   8% (15/183)   Compressing objects:   9% (17/183)   Compressing objects:  10% (19/183)   Compressing objects:  11% (21/183)   Compressing objects:  12% (22/183)   Compressing objects:  13% (24/183)   Compressing objects:  14% (26/183)   Compressing objects:  15% (28/183)   Compressing objects:  16% (30/183)   Compressing objects:  17% (32/183)   Compressing objects:  18% (33/183)   Compressing objects:  19% (35/183)   Compressing objects:  20% (37/183)   Compressing objects:  21% (39/183)   Compressing objects:  22% (41/183)   Compressing objects:  23% (43/183)   Compressing objects:  24% (44/183)   Compressing objects:  25% (46/183)   Compressing objects:  26% (48/183)   Compressing objects:  27% (50/183)   Compressing objects:  28% (52/183)   Compressing objects:  29% (54/183)   Compressing objects:  30% (55/183)   Compressing objects:  31% (57/183)   Compressing objects:  32% (59/183)   Compressing objects:  33% (61/183)   Compressing objects:  34% (63/183)   Compressing objects:  35% (65/183)   Compressing objects:  36% (66/183)   Compressing objects:  37% (68/183)   Compressing objects:  38% (70/183)   Compressing objects:  39% (72/183)   Compressing objects:  40% (74/183)   Compressing objects:  41% (76/183)   Compressing objects:  42% (77/183)   Compressing objects:  43% (79/183)   Compressing objects:  44% (81/183)   Compressing objects:  45% (83/183)   Compressing objects:  46% (85/183)   Compressing objects:  47% (87/183)   Compressing objects:  48% (88/183)   Compressing objects:  49% (90/183)   Compressing objects:  50% (92/183)   Compressing objects:  51% (94/183)   Compressing objects:  52% (96/183)   Compressing objects:  53% (97/183)   Compressing objects:  54% (99/183)   Compressing objects:  55% (101/183)   Compressing objects:  56% (103/183)   Compressing objects:  57% (105/183)   Compressing objects:  58% (107/183)   Compressing objects:  59% (108/183)   Compressing objects:  60% (110/183)   Compressing objects:  61% (112/183)   Compressing objects:  62% (114/183)   Compressing objects:  63% (116/183)   Compressing objects:  64% (118/183)   Compressing objects:  65% (119/183)   Compressing objects:  66% (121/183)   Compressing objects:  67% (123/183)   Compressing objects:  68% (125/183)   Compressing objects:  69% (127/183)   Compressing objects:  70% (129/183)   Compressing objects:  71% (130/183)   Compressing objects:  72% (132/183)   Compressing objects:  73% (134/183)   Compressing objects:  74% (136/183)   Compressing objects:  75% (138/183)   Compressing objects:  76% (140/183)   Compressing objects:  77% (141/183)   Compressing objects:  78% (143/183)   Compressing objects:  79% (145/183)   Compressing objects:  80% (147/183)   Compressing objects:  81% (149/183)   Compressing objects:  82% (151/183)   Compressing objects:  83% (152/183)   Compressing objects:  84% (154/183)   Compressing objects:  85% (156/183)   Compressing objects:  86% (158/183)   Compressing objects:  87% (160/183)   Compressing objects:  88% (162/183)   Compressing objects:  89% (163/183)   Compressing objects:  90% (165/183)   Compressing objects:  91% (167/183)   Compressing objects:  92% (169/183)   Compressing objects:  93% (171/183)   Compressing objects:  94% (173/183)   Compressing objects:  95% (174/183)   Compressing objects:  96% (176/183)   Compressing objects:  97% (178/183)   Compressing objects:  98% (180/183)   Compressing objects:  99% (182/183)   Compressing objects: 100% (183/183)   Compressing objects: 100% (183/183), done.
+Writing objects:   0% (1/254)   Writing objects:   1% (3/254)   Writing objects:   2% (6/254)   Writing objects:   3% (8/254)   Writing objects:   4% (11/254)   Writing objects:   5% (13/254)   Writing objects:   6% (16/254)   Writing objects:   7% (18/254)   Writing objects:   8% (21/254)   Writing objects:   9% (24/254)   Writing objects:  11% (28/254)   Writing objects:  12% (31/254)   Writing objects:  13% (34/254)   Writing objects:  14% (36/254)   Writing objects:  15% (39/254)   Writing objects:  16% (41/254)   Writing objects:  17% (44/254)   Writing objects:  18% (46/254)   Writing objects:  19% (49/254)   Writing objects:  20% (51/254)   Writing objects:  21% (55/254)   Writing objects:  22% (56/254)   Writing objects:  24% (61/254)   Writing objects:  25% (66/254)   Writing objects:  26% (67/254)   Writing objects:  27% (69/254)   Writing objects:  28% (72/254)   Writing objects:  29% (75/254)   Writing objects:  30% (77/254)   Writing objects:  31% (79/254)   Writing objects:  32% (82/254)   Writing objects:  33% (84/254)   Writing objects:  34% (87/254)   Writing objects:  35% (89/254)   Writing objects:  36% (92/254)   Writing objects:  37% (94/254)   Writing objects:  38% (97/254)   Writing objects:  39% (100/254)   Writing objects:  40% (104/254)   Writing objects:  41% (105/254)   Writing objects:  42% (107/254)   Writing objects:  43% (110/254)   Writing objects:  44% (112/254)   Writing objects:  45% (115/254)   Writing objects:  46% (118/254)   Writing objects:  47% (120/254)   Writing objects:  48% (122/254)   Writing objects:  49% (125/254)   Writing objects:  50% (127/254)   Writing objects:  51% (130/254)   Writing objects:  52% (133/254)   Writing objects:  53% (135/254)   Writing objects:  54% (138/254)   Writing objects:  55% (141/254)   Writing objects:  56% (143/254)   Writing objects:  57% (145/254)   Writing objects:  58% (148/254)   Writing objects:  59% (150/254)   Writing objects:  60% (153/254)   Writing objects:  61% (155/254)   Writing objects:  62% (158/254)   Writing objects:  63% (161/254)   Writing objects:  64% (163/254)   Writing objects:  65% (166/254)   Writing objects:  66% (168/254)   Writing objects:  67% (172/254)   Writing objects:  68% (173/254)   Writing objects:  69% (176/254)   Writing objects:  70% (178/254)   Writing objects:  71% (181/254)   Writing objects:  72% (183/254)   Writing objects:  73% (186/254)   Writing objects:  74% (188/254)   Writing objects:  75% (191/254)   Writing objects:  76% (194/254)   Writing objects:  77% (196/254)   Writing objects:  78% (199/254)   Writing objects:  79% (201/254)   Writing objects:  80% (204/254)   Writing objects:  81% (206/254)   Writing objects:  82% (209/254)   Writing objects:  83% (211/254)   Writing objects:  84% (214/254)   Writing objects:  85% (216/254)   Writing objects:  86% (219/254)   Writing objects:  87% (221/254)   Writing objects:  88% (224/254)   Writing objects:  89% (227/254)   Writing objects:  90% (230/254)   Writing objects:  91% (232/254)   Writing objects:  92% (234/254)   Writing objects:  93% (237/254)   Writing objects:  94% (239/254)   Writing objects:  95% (242/254)   Writing objects:  96% (244/254)   Writing objects:  97% (247/254)   Writing objects:  98% (249/254)   Writing objects:  99% (252/254)   Writing objects: 100% (254/254)   Writing objects: 100% (254/254), 240.95 KiB | 1.38 MiB/s, done.
+Total 254 (delta 80), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/80)   [Kremote: Resolving deltas:   5% (4/80)   [Kremote: Resolving deltas:   6% (5/80)   [Kremote: Resolving deltas:  17% (14/80)   [Kremote: Resolving deltas:  26% (21/80)   [Kremote: Resolving deltas:  53% (43/80)   [Kremote: Resolving deltas:  73% (59/80)   [Kremote: Resolving deltas:  82% (66/80)   [Kremote: Resolving deltas:  85% (68/80)   [Kremote: Resolving deltas:  90% (72/80)   [Kremote: Resolving deltas:  97% (78/80)   [Kremote: Resolving deltas:  98% (79/80)   [Kremote: Resolving deltas: 100% (80/80)   [Kremote: Resolving deltas: 100% (80/80), done.[K
+To https://github.com/dan410/StatsBlog.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ ls
+StatsBlog.Rproj	content		layouts		themes
+archetypes	data		public
+config.toml	index.Rmd	static
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git staus[K[Ktus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/CC1D6227/console06/9012451A[m
+	[31mmodified:   public/tags/golang/index.html[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git as[Kdd .
