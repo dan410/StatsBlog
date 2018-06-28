@@ -1,0 +1,25 @@
+]0;~/Documents/StatsBlog[?1034hWE32094:StatsBlog fort002$ [KWE32094:StatsBlog fort002$ ls
+StatsBlog.Rproj	content		layouts		themes
+archetypes	data		public
+config.toml	index.Rmd	static
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git init
+Initialized empty Git repository in /Users/fort002/Documents/StatsBlog/.git/
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ 
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ ls -la
+total 24
+drwxr-xr-x  14 fort002  2016721313   476 Jun 28 15:26 .
+drwx------+ 32 fort002  2016721313  1088 Jun 28 14:17 ..
+drwxr-xr-x   4 fort002  2016721313   136 Jun 28 14:20 .Rproj.user
+drwxr-xr-x   9 fort002  2016721313   306 Jun 28 15:26 .git
+-rw-r--r--   1 fort002  2016721313   205 Jun 28 14:22 StatsBlog.Rproj
+drwxr-xr-x   2 fort002  2016721313    68 Jun 28 14:38 archetypes
+-rw-r--r--   1 fort002  2016721313  1389 Jun 28 15:04 config.toml
+drwxr-xr-x   4 fort002  2016721313   136 Jun 28 14:38 content
+drwxr-xr-x   2 fort002  2016721313    68 Jun 28 14:38 data
+-rw-r--r--   1 fort002  2016721313    39 Jun 28 14:38 index.Rmd
+drwxr-xr-x   2 fort002  2016721313    68 Jun 28 14:38 layouts
+drwxr-xr-x  11 fort002  2016721313   374 Jun 28 14:38 public
+drwxr-xr-x   3 fort002  2016721313   102 Jun 28 14:38 static
+drwxr-xr-x   3 fort002  2016721313   102 Jun 28 14:38 themes
+]0;~/Documents/StatsBlogWE32094:StatsBlog fort002$ git add .
