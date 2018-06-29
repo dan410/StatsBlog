@@ -7,7 +7,7 @@ googleAnalytics = ""
 
 [params]
     author = "Dan Fortin"
-    description = "Data Analyis. Visualisation. Insight."
+    description = "Data Analyis. Visualization. Insight."
     githubUsername = "#"
     accent = "gray"
     showBorder = true
