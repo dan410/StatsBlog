@@ -1,0 +1,29 @@
+---
+title: Simple Things
+author: Dan Fortin
+date: '2018-06-29'
+slug: simple-things
+categories:
+  - R
+tags:
+  - R Markdown
+---
+
+This is a the first new post. Create an interactive table.
+
+**The mtcars dataset**
+
+```{r}
+library(ggplot2)
+library(DT)
+DT::datatable(mtcars)
+```
+
+Now create a plot
+
+```{r}
+ggplot(mtcars, aes(x = mpg, y = hp))+
+  geom_point()
+```
+
+
